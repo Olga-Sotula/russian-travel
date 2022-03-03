@@ -1,5 +1,12 @@
 .figure {
    margin: 64px auto 0;
    padding: 0;
-   min-width: 984px;
+   max-width: 984px;
 }
+
+@media screen and (max-width: 1277px) and (min-width: 1024px){
+   .figure {
+      margin: 58px auto 0;
+      max-width: 928px;
+   }
+ }

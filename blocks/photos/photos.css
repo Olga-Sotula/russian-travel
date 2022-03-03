@@ -1,6 +1,11 @@
 .photos {
-    margin: 0;
+    margin: 0 auto;
     padding: 0 48px 80px;
     box-sizing: border-box;
 }
     
+@media screen and (max-width: 1277px) and (min-width: 1024px){
+    .photos {
+        padding: 0 48px 105px;
+    }
+  }
