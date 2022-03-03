@@ -9,3 +9,9 @@
         padding: 0 48px 105px;
     }
   }
+
+  @media screen and (max-width: 1024px) and (min-width: 768px){
+    .photos {
+        padding: 0 24px 98px;
+    }
+  }
