@@ -1,4 +1,6 @@
 .photos {
     margin: 0;
-    padding: 0 30px 80px;
+    padding: 0 48px 80px;
+    box-sizing: border-box;
+}
     

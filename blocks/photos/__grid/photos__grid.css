@@ -3,5 +3,6 @@
     padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    gap: 16px;
+    column-gap: 10px;
+    row-gap: 15px;
 }
