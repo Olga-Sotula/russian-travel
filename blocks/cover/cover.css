@@ -12,14 +12,20 @@
     position: relative;
 }
 
-.cover::after{
+.cover::before{
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(2A, 2C, 2F, 0.3);
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    transition: opacity 1.5s ease-in;
 }
+
+.cover:hover::before {
+    opacity: .8;
+  }
 
 @media screen and (max-width: 1277px) and (min-width: 1024px){
     .cover {
