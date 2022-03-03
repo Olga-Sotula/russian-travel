@@ -39,3 +39,4 @@
         margin: 0 auto 48px;
         grid-template-columns: 320px calc(100% - 320px);
     }
+  }
