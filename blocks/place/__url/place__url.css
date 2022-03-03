@@ -4,3 +4,9 @@
     padding: 0;
     align-self: flex-end;
 }
+
+@media screen and (max-width: 767px){
+    .place__url{
+        padding: 0 16px;
+    }
+}

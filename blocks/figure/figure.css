@@ -18,3 +18,11 @@
       max-height: 480px;
    }
  }
+
+ @media screen and (max-width: 767px){
+   .figure {
+      margin: 40px auto 0;
+      max-width: 320px;
+      max-height: 200px;
+   }
+ }
