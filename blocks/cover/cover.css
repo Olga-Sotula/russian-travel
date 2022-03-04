@@ -1,7 +1,7 @@
 .cover{
     display: flex;
     flex-direction: column;
-    margin: 92px 42px 0;
+    margin: 92px auto 0;
     padding: 0;
     box-sizing: border-box;
     min-height: 740px;
